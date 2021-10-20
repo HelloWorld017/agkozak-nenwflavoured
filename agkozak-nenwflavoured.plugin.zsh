@@ -1,5 +1,5 @@
 # Add node version
-AGKOZAK_NODE_VERSION=`node --version | sed 's/v\([0-9.]*\).*/\1/'`
+AGKOZAK_NODE_VERSION=`[ -f "$(which node)" ] && node --version | sed 's/v\([0-9.]*\).*/\1/'`
 psvar[11]=$AGKOZAK_NODE_VERSION
 
 AGKOZAK_PROMPT_CHAR=( $'\u203a' "⚡ \u203a" : )
