@@ -32,13 +32,13 @@ AGKOZAK_CUSTOM_PROMPT+='%(9V.%F{203}%9v%f .)'
 AGKOZAK_CUSTOM_PROMPT+='%F{240}≫%f '
 
 ## Username
-AGKOZAK_CUSTOM_PROMPT+='%n %F{240}at%f'
+AGKOZAK_CUSTOM_PROMPT+='%n'
 
 ## Hostname
 AGKOZAK_CUSTOM_PROMPT+='%(1V. %F{240}on%f %1v.)'
 
 ## Path
-AGKOZAK_CUSTOM_PROMPT+='%B%F{blue} %2v%f%b'
+AGKOZAK_CUSTOM_PROMPT+=' %F{240}at%f%B%F{blue} %2v%f%b'
 
 ## With
 AGKOZAK_CUSTOM_PROMPT+=' %F{240}with%f'
