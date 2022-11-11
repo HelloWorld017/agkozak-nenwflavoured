@@ -1,6 +1,6 @@
 # Add node version
 AGKOZAK_NODE_VERSION=`[ -f "$(which node)" ] && node --version | sed 's/v\([0-9.]*\).*/\1/'`
-psvar[11]=$AGKOZAK_NODE_VERSION
+psvar[12]=$AGKOZAK_NODE_VERSION
 
 AGKOZAK_PROMPT_CHAR=( $'\u203a' "⚡ \u203a" : )
 AGKOZAK_PROMPT_DIRTRIM=0
@@ -47,7 +47,7 @@ AGKOZAK_CUSTOM_PROMPT+=' %F{240}with%f'
 AGKOZAK_CUSTOM_PROMPT+='%(10V. %F{green}[%10v]%f.)'
 
 ## Node
-AGKOZAK_CUSTOM_PROMPT+=$'%(11V. %F{green}\u2B22%11v%f.)'
+AGKOZAK_CUSTOM_PROMPT+=$'%(12V. %F{green}\u2B22%12v%f.)'
 
 ## Newline
 AGKOZAK_CUSTOM_PROMPT+=$'\n%F{240} └ %f'
